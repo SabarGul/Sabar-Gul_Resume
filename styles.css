@@ -1,0 +1,112 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f4f4f9;
+    color: #333;
+  }
+  
+  .resume-container {
+    width: 90%;
+    max-width: 800px;
+    background-color: #ffffff;
+    padding: 50px;
+    margin: 20px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .header {
+    text-align: center;
+    border-bottom: 2px solid #000000;
+    padding-bottom: 15px;
+    margin-bottom: 20px;
+  }
+  
+  .header h1 {
+    font-size: 2em;
+    color: #000000;
+  }
+  
+  .role {
+    font-size: 1.2em;
+    color: #666;
+  }
+  
+  .contact-info {
+    font-size: 0.9em;
+    color: #333;
+  }
+  
+  .section {
+    padding-bottom: 20px;
+    border-bottom: 2px solid #000000;
+    margin-bottom: 20px;
+  }
+  
+  .section h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    color: #000000;
+  }
+
+  .lastsection h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    color: #000000;
+  }
+
+  .lastsection {
+    padding-bottom: 20px;
+  }
+  
+  .experience-item, .education-item {
+    padding-bottom: 15px;
+    /* margin-bottom: 20px; */
+  }
+
+  .title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .date {
+    font-size: 0.9em;
+    color: #999;
+  }
+
+  .description {
+    font-size: 0.9em;
+    color: #000000;
+  }
+  
+  /* .skills-list {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+  } */
+  
+  .skills-list li {
+    /* margin: 5px; */
+    /* padding: 8px 12px; */
+    color: rgb(0, 0, 0);
+    /* border-radius: 4px; */
+  }
+  
+  @media (max-width: 600px) {
+    .header h1 {
+      font-size: 1.5em;
+    }
+  
+    .section h2 {
+      font-size: 1.2em;
+    }
+  }
+  
